@@ -45,7 +45,7 @@ public class CalendrierAnnuel {
 	}
 
 	public boolean estLibre(int jour, int mois) {
-		return calendrier[mois - 1].estLibre(jour);
+		return calendrier[mois - 1].estLibre(jour - 1);
 	}
 
 	public boolean reserver(int jour, int mois) {
